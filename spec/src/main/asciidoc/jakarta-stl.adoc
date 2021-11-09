@@ -219,21 +219,21 @@ Jakarta Standard Tag Library Tag Libraries
 |Functional Area
 |URI |Prefix
 |core |
-_http://java.sun.com/jsp/jstl/core_ | _c_
+_jakarta.tags.core_ | _c_
 
 |XML processing |
-_http://java.sun.com/jsp/jstl/xml_ | _x_
+_jakarta.tags.xml_ | _x_
 
 |I18N capable formatting
-| _http://java.sun.com/jsp/jstl/fmt_
+| _jakarta.tags.fmt_
 | _fmt_
 
 |relational db access (SQL)
-| _http://java.sun.com/jsp/jstl/sql_
+| _jakarta.tags.sql_
 | _sql_
 
 |Functions |
-_http://java.sun.com/jsp/jstl/functions_ |fn
+_jakarta.tags.functions_ |fn
 |===
 
 === Container Requirement
@@ -7243,10 +7243,10 @@ libraries), a developer could create the following TLD:
         <init-param>
             <param-name>permittedTaglibs</param-name>
             <param-value>
-                http://java.sun.com/jstl/core
-                http://java.sun.com/jstl/xml
-                http://java.sun.com/jstl/fmt
-                http://java.sun.com/jstl/sql
+                jakarta.tags.core
+                jakarta.tags.xml
+                jakarta.tags.fmt
+                jakarta.tags.sql
             </param-value>
         </init-param>
     </validator>
