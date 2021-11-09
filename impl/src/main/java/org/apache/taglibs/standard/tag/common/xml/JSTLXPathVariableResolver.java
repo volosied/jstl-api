@@ -38,21 +38,21 @@ public class JSTLXPathVariableResolver implements XPathVariableResolver {
 
     // The URLs
     private static final String PAGE_NS_URL = 
-            "http://java.sun.com/jstl/xpath/page";
+            "jakarta.tags.xpath.page";
     private static final String REQUEST_NS_URL = 
-            "http://java.sun.com/jstl/xpath/request";
+            "jakarta.tags.xpath.request";
     private static final String SESSION_NS_URL = 
-            "http://java.sun.com/jstl/xpath/session";
+            "jakarta.tags.xpath.session";
     private static final String APP_NS_URL = 
-            "http://java.sun.com/jstl/xpath/app";
+            "jakarta.tags.xpath.app";
     private static final String PARAM_NS_URL = 
-            "http://java.sun.com/jstl/xpath/param";
+            "jakarta.tags.xpath.param";
     private static final String INITPARAM_NS_URL = 
-            "http://java.sun.com/jstl/xpath/initParam";
+            "jakarta.tags.xpath.initParam";
     private static final String COOKIE_NS_URL = 
-            "http://java.sun.com/jstl/xpath/cookie";
+            "jakarta.tags.xpath.cookie";
     private static final String HEADER_NS_URL = 
-            "http://java.sun.com/jstl/xpath/header";
+            "jakarta.tags.xpath.header";
     
     //*********************************************************************
     // Constructor
