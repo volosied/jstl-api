@@ -185,7 +185,7 @@ public class JSTLXPathImpl implements javax.xml.xpath.XPath {
         // enter this code at the same time, we just waste a little time
         if(d==null) {
             DOMImplementation dim = getParser().getDOMImplementation();
-            d = dim.createDocument("http://java.sun.com/jaxp/xpath",
+            d = dim.createDocument("jakarta.tags.jaxp.xpath",
                 "dummyroot", null);
         }
         return d;
