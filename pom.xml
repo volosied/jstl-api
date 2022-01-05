@@ -59,6 +59,7 @@
     </mailingLists>
 
     <modules>
+        <module>tlddoc</module>
         <module>api</module>
         <module>impl</module>
         <module>spec</module>
