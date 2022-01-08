@@ -550,8 +550,7 @@ public class TLDDocGenerator {
 
                 Element taglibNode = (Element)summaryTLD.importNode( 
                     doc.getDocumentElement(), true );
-                if( !taglibNode.getNamespaceURI().equals( Constants.NS_JAKARTAEE )
-                    && !taglibNode.getNamespaceURI().equals( Constants.NS_J2EE )) {
+                if( !taglibNode.getNamespaceURI().equals( Constants.NS_JAKARTAEE ) ) {
                     throw new GeneratorException( "Error: " + 
                         tagLibrary.getPathDescription() + 
                         " does not have xmlns=\"" + Constants.NS_JAKARTAEE + "\"" );
