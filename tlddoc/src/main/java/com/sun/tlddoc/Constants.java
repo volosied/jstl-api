@@ -50,8 +50,8 @@ public final class Constants {
     public static final String DEFAULT_DOC_TITLE =
         "Tag Library Documentation Generator - Generated Documentation";
     
-    /** Namespace for Java EE */
-    public static final String NS_JAVAEE = "http://java.sun.com/xml/ns/javaee";
+    /** Namespace for Jakarta EE */
+    public static final String NS_JAKARTAEE = "https://jakarta.ee/xml/ns/jakartaee";
     
     /** Namespace for J2EE */
     public static final String NS_J2EE = "http://java.sun.com/xml/ns/j2ee";
