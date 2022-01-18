@@ -1,31 +1,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>tlddoc</artifactId>
     <name>taglibrarydoc</name>
     <groupId>taglibrarydoc</groupId>
     <version>2.0-SNAPSHOT</version>
-    <url>http://taglibrarydoc.dev.java.net</url>
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
-    <licenses>
-        <license>
-            <name>BSD License</name>
-            <url>
-http://taglibrarydoc.dev.java.net/source/browse/*checkout*/taglibrarydoc/taglibrarydoc/license.txt
-            </url>
-        </license>
-    </licenses>
+	<licenses>
+		<license>
+			<name>New BSD License</name>
+			<url>http://opensource.org/licenses/BSD-3-Clause</url>
+		</license>
+	</licenses>
     <organization>
         <name>sun</name>
         <url>http://www.sun.com/</url>
     </organization>
     <inceptionYear>2003</inceptionYear>
     <description>
-Tag Library Documentation Generator is a utility for automatically generating javadoc-style documentation for JavaServer Pages (JSP) Technology Tag Libraries. It accepts a set of tag libraries as input, and generates a set of HTML files as output. It can also be used to generate tag library documentation for JavaServer Faces UI components. Included in the output is a full description of each defined tag library, the tags contained within those tag libraries, and how to use those tags.
+Tag Library Documentation Generator is a utility for automatically generating javadoc-style documentation for Jakarta Server Pages Technology Tag Libraries. It accepts a set of tag libraries as input, and generates a set of HTML files as output. It can also be used to generate tag library documentation for Jakarta Server Faces UI components. Included in the output is a full description of each defined tag library, the tags contained within those tag libraries, and how to use those tags.
     </description>
 
     <build>
@@ -36,6 +28,14 @@ Tag Library Documentation Generator is a utility for automatically generating ja
                 <version>3.0.0-M2</version>
                 <configuration>
                     <skip>true</skip>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <release>11</release>
+                    <compilerArgument>-Xlint:unchecked</compilerArgument>
                 </configuration>
             </plugin>
         </plugins>
