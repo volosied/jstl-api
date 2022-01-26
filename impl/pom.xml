@@ -289,31 +289,31 @@
                             <relocations>
                                 <relocation>
                                     <pattern>org.apache.xpath</pattern>
-                                    <shadedPattern>org.eclipse.shaded.org.apache.xpath</shadedPattern>
+                                    <shadedPattern>ee.jakarta.shaded.tags.org.apache.xpath</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>org.apache.xml</pattern>
-                                    <shadedPattern>org.eclipse.shaded.org.apache.xml</shadedPattern>
+                                    <shadedPattern>ee.jakarta.shaded.tags.org.apache.xml</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>org.apache.xalan</pattern>
-                                    <shadedPattern>org.eclipse.shaded.org.apache.xalan</shadedPattern>
+                                    <shadedPattern>ee.jakarta.shaded.tags.org.apache.xalan</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>org.apache.regexp</pattern>
-                                    <shadedPattern>org.eclipse.shaded.org.apache.regexp</shadedPattern>
+                                    <shadedPattern>ee.jakarta.shaded.tags.org.apache.regexp</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>org.apache.bcel</pattern>
-                                    <shadedPattern>org.eclipse.shaded.org.apache.bcel</shadedPattern>
+                                    <shadedPattern>ee.jakarta.shaded.tags.org.apache.bcel</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>java_cup.runtime</pattern>
-                                    <shadedPattern>org.eclipse.shaded.java_cup.runtime</shadedPattern>
+                                    <shadedPattern>ee.jakarta.shaded.tags.java_cup.runtime</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>trax</pattern>
-                                    <shadedPattern>org.eclipse.shaded.trax</shadedPattern>
+                                    <shadedPattern>ee.jakarta.shaded.tags.trax</shadedPattern>
                                 </relocation>
                             </relocations>
                         </configuration>
