@@ -361,12 +361,12 @@
             <xsl:when test="jakartaee:deferred-value">
                 <xsl:choose>
                     <xsl:when test="jakartaee:deferred-value/jakartaee:type">
-                        <code>javax.el.ValueExpression</code>
+                        <code>jakarta.el.ValueExpression</code>
                         <br/>(<i>must evaluate to </i><code><xsl:value-of
                                 select="jakartaee:deferred-value/jakartaee:type"/></code>)
                     </xsl:when>
                     <xsl:otherwise>
-                        <code>javax.el.ValueExpression</code>
+                        <code>jakarta.el.ValueExpression</code>
                         <br/>(<i>must evaluate to </i><code>java.lang.Object</code>)
                     </xsl:otherwise>
                 </xsl:choose>                                
@@ -374,12 +374,12 @@
             <xsl:when test="jakartaee:deferred-method">
                 <xsl:choose>
                     <xsl:when test="jakartaee:deferred-method/jakartaee:method-signature">
-                        <code>javax.el.MethodExpression</code>
+                        <code>jakarta.el.MethodExpression</code>
                         <br/>(<i>signature must match </i><code><xsl:value-of
                                 select="jakartaee:deferred-method/jakartaee:method-signature"/></code>)
                     </xsl:when>
                     <xsl:otherwise>
-                        <code>javax.el.MethodExpression</code>
+                        <code>jakarta.el.MethodExpression</code>
                         <br/>(<i>signature must match </i><code>void methodname()</code>)
                     </xsl:otherwise>
                 </xsl:choose>
